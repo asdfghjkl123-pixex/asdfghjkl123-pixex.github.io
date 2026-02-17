@@ -1,11 +1,280 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8">
-  <title>Chó Gia Huy</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Dịch vụ cày thuê Roblox chuyên nghiệp, uy tín, tốc độ cao, bảo mật tài khoản và hỗ trợ 24/7." />
+  <title>ProCayThue Roblox | Cày thuê uy tín - nhanh chóng</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <h1>Hai Dối</h1>
-  <p>chó ăn cứt</p>
+  <header class="topbar">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home">Pro<span>CayThue</span></a>
+      <nav class="nav">
+        <a href="#services">Dịch vụ</a>
+        <a href="#prices">Bảng giá</a>
+        <a href="#process">Quy trình</a>
+        <a href="#reviews">Đánh giá</a>
+        <a href="#contact">Liên hệ</a>
+      </nav>
+      <a class="btn btn-primary" href="#order">Đặt ngay</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="chip">Uy tín • Nhanh • Bảo mật</p>
+          <h1>Dịch vụ cày thuê Roblox <br />chuyên nghiệp toàn diện</h1>
+          <p class="subtitle">
+            Nhận cày thuê game pass, level, vật phẩm và tài nguyên theo yêu cầu.
+            Cam kết đúng tiến độ, hỗ trợ báo cáo realtime và hoàn tiền nếu không đạt cam kết.
+          </p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#order">Tạo đơn cày thuê</a>
+            <a class="btn btn-outline" href="#prices">Xem bảng giá</a>
+          </div>
+          <ul class="hero-badges">
+            <li>✅ Hoàn thành 2.000+ đơn</li>
+            <li>✅ Hỗ trợ 24/7</li>
+            <li>✅ Cam kết bảo mật 2 lớp</li>
+          </ul>
+        </div>
+
+        <aside class="hero-card">
+          <h2>Đăng ký tư vấn nhanh</h2>
+          <form class="quick-form" id="quickForm">
+            <label>
+              Tên của bạn
+              <input type="text" placeholder="VD: Nguyễn Văn A" required />
+            </label>
+            <label>
+              Nick/Zalo liên hệ
+              <input type="text" placeholder="VD: 09xxxxxxxx" required />
+            </label>
+            <label>
+              Mục tiêu cày
+              <select required>
+                <option value="">-- Chọn mục tiêu --</option>
+                <option>Cày level</option>
+                <option>Cày Beli/Fragments</option>
+                <option>Treo farm vật phẩm</option>
+                <option>Cày theo yêu cầu riêng</option>
+              </select>
+            </label>
+            <button type="submit" class="btn btn-primary btn-block">Nhận báo giá trong 5 phút</button>
+          </form>
+          <small class="note">* Thông tin chỉ dùng để tư vấn dịch vụ.</small>
+        </aside>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section-head">
+          <p class="chip">Dịch vụ nổi bật</p>
+          <h2>Hệ thống gói cày thuê đầy đủ</h2>
+        </div>
+        <div class="cards grid-3">
+          <article class="card">
+            <h3>Cày level siêu tốc</h3>
+            <p>Tăng cấp nhanh theo mốc yêu cầu, tối ưu thời gian online và đường cày.</p>
+            <ul>
+              <li>Lộ trình rõ ràng theo level</li>
+              <li>Báo tiến độ mỗi 2 giờ</li>
+              <li>Bảo hành 48h sau bàn giao</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Farm tài nguyên</h3>
+            <p>Farm Beli/Fragments/vật phẩm hiếm theo chỉ tiêu và khung giờ linh hoạt.</p>
+            <ul>
+              <li>Tùy chỉnh mục tiêu farm</li>
+              <li>Hạn chế rủi ro checkpoint</li>
+              <li>Tối ưu theo từng server</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Gói VIP trọn tháng</h3>
+            <p>Đội ngũ cày riêng cho tài khoản của bạn với ưu đãi giá tốt nhất.</p>
+            <ul>
+              <li>Ưu tiên xử lý đơn</li>
+              <li>Hỗ trợ 1-1 với admin</li>
+              <li>Giảm 20% cho đơn tiếp theo</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="prices" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <p class="chip">Bảng giá tham khảo</p>
+          <h2>Chọn gói phù hợp ngân sách</h2>
+        </div>
+
+        <div class="pricing grid-3">
+          <article class="price-card">
+            <p class="tag">Starter</p>
+            <h3>Gói Cơ Bản</h3>
+            <p class="price">99.000đ</p>
+            <ul>
+              <li>+100 level</li>
+              <li>Báo cáo ngày 2 lần</li>
+              <li>Hoàn tiền 50% nếu chậm</li>
+            </ul>
+            <a href="#order" class="btn btn-outline btn-block">Chọn gói</a>
+          </article>
+
+          <article class="price-card featured">
+            <p class="tag">Popular</p>
+            <h3>Gói Nâng Cao</h3>
+            <p class="price">299.000đ</p>
+            <ul>
+              <li>+350 level</li>
+              <li>Báo cáo realtime qua Zalo</li>
+              <li>Ưu tiên xử lý trong 15 phút</li>
+            </ul>
+            <a href="#order" class="btn btn-primary btn-block">Chọn gói</a>
+          </article>
+
+          <article class="price-card">
+            <p class="tag">VIP</p>
+            <h3>Gói Chuyên Sâu</h3>
+            <p class="price">599.000đ</p>
+            <ul>
+              <li>+800 level hoặc combo farm</li>
+              <li>Hỗ trợ kỹ thuật 24/7</li>
+              <li>Bảo hành tài khoản 7 ngày</li>
+            </ul>
+            <a href="#order" class="btn btn-outline btn-block">Chọn gói</a>
+          </article>
+        </div>
+
+        <div class="calculator" id="order">
+          <h3>Ước tính chi phí tự động</h3>
+          <div class="calc-grid">
+            <label>
+              Level hiện tại
+              <input type="number" id="currentLevel" min="1" value="100" />
+            </label>
+            <label>
+              Level mục tiêu
+              <input type="number" id="targetLevel" min="1" value="300" />
+            </label>
+            <label>
+              Loại gói
+              <select id="serviceType">
+                <option value="120">Cơ bản</option>
+                <option value="160" selected>Nâng cao</option>
+                <option value="220">VIP</option>
+              </select>
+            </label>
+          </div>
+          <p class="result" id="priceResult">Chi phí ước tính: 320.000đ</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="section">
+      <div class="container">
+        <div class="section-head">
+          <p class="chip">Quy trình làm việc</p>
+          <h2>4 bước triển khai rõ ràng</h2>
+        </div>
+        <div class="timeline">
+          <div><span>1</span>Tiếp nhận đơn và kiểm tra thông tin tài khoản.</div>
+          <div><span>2</span>Tư vấn lộ trình tối ưu chi phí và xác nhận mục tiêu.</div>
+          <div><span>3</span>Bắt đầu cày, cập nhật tiến độ định kỳ theo yêu cầu.</div>
+          <div><span>4</span>Bàn giao kết quả, hậu mãi và bảo hành sau dịch vụ.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="reviews" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <p class="chip">Khách hàng nói gì?</p>
+          <h2>Đánh giá thực tế sau khi sử dụng dịch vụ</h2>
+        </div>
+        <div class="cards grid-3">
+          <article class="card review">
+            <p>“Mình đặt gói nâng cao, làm nhanh hơn dự kiến 1 ngày. Support nhiệt tình.”</p>
+            <strong>— Khánh Linh, Hà Nội</strong>
+          </article>
+          <article class="card review">
+            <p>“Có cập nhật tiến độ liên tục, khá yên tâm. Giá hợp lý so với chất lượng.”</p>
+            <strong>— Vũ Tùng, Đà Nẵng</strong>
+          </article>
+          <article class="card review">
+            <p>“Dịch vụ rõ ràng, có cam kết hoàn tiền. Mình sẽ tiếp tục ủng hộ.”</p>
+            <strong>— Thành Nam, TP.HCM</strong>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq">
+      <div class="container">
+        <div class="section-head">
+          <p class="chip">FAQ</p>
+          <h2>Câu hỏi thường gặp</h2>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>Cần cung cấp thông tin gì để cày thuê?</summary>
+            <p>Bạn chỉ cần gửi tài khoản game phụ/hoặc tài khoản chính kèm yêu cầu cụ thể và kênh nhận cập nhật tiến độ.</p>
+          </details>
+          <details>
+            <summary>Shop có bảo mật tài khoản không?</summary>
+            <p>Chúng tôi áp dụng quy trình bảo mật 2 lớp, chỉ admin phụ trách mới có quyền truy cập và sẽ logout ngay sau khi hoàn tất.</p>
+          </details>
+          <details>
+            <summary>Nếu không đạt chỉ tiêu thì sao?</summary>
+            <p>Bạn được hoàn tiền theo mức cam kết từng gói hoặc tiếp tục cày bù miễn phí đến khi đủ mục tiêu.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container contact-grid">
+        <div>
+          <p class="chip">Liên hệ ngay</p>
+          <h2>Đặt đơn nhanh trong 1 phút</h2>
+          <p class="subtitle">Đội ngũ hỗ trợ liên tục từ 8:00 - 24:00 mỗi ngày, kể cả cuối tuần.</p>
+          <ul class="contact-list">
+            <li>Zalo: 09xx.xxx.xxx</li>
+            <li>Facebook: fb.com/procaythue.roblox</li>
+            <li>Discord: procaythue#2026</li>
+          </ul>
+        </div>
+
+        <form class="contact-form">
+          <label>Họ và tên<input type="text" required /></label>
+          <label>Số điện thoại/Zalo<input type="text" required /></label>
+          <label>Yêu cầu chi tiết<textarea rows="4" placeholder="Nhập mục tiêu cày của bạn..." required></textarea></label>
+          <button class="btn btn-primary" type="submit">Gửi yêu cầu tư vấn</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-wrap">
+      <p>© 2026 ProCayThue Roblox. All rights reserved.</p>
+      <p class="muted">Lưu ý: Đây là website demo giới thiệu dịch vụ, bạn nên kiểm tra kỹ trước khi giao dịch.</p>
+    </div>
+  </footer>
+
+  <a href="#contact" class="floating-cta">Liên hệ tư vấn</a>
+
+  <script src="script.js"></script>
 </body>
 </html>
